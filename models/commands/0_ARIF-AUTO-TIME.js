@@ -17,7 +17,7 @@ module.exports.config = {
 
 // STYLISH TIME MESSAGE
 function getTimeMessage() {
-  const now = moment().tz("Asia/Kolkata");
+  const now = moment().tz("Asia/Karachi");
 
   const time = now.format("hh:mm A");
   const date = now.format("DD MMMM YYYY");
@@ -29,7 +29,7 @@ function getTimeMessage() {
 ✰ 𝗗𝗔𝗧𝗘 ➪ ${date} 📆
 ✰ 𝗗𝗔𝗬 ➪ ${day} ⏳
 
-✦••★ 𝗔𝗥𝗜𝗙💖𝗕𝗔𝗕𝗨 ★••✦`;
+✦••★ 𝗔𝗬𝗔𝗡•°𝗝𝗨𝗧𝗧 ★••✦`;
 }
 
 module.exports.onLoad = () => {
@@ -39,7 +39,7 @@ module.exports.onLoad = () => {
 
   // CHECK EVERY MINUTE
   schedule.scheduleJob("*/1 * * * *", () => {
-    const now = moment().tz("Asia/Kolkata");
+    const now = moment().tz("Asia/Karachi");
 
     // SEND ONLY AT 00 MINUTE
     if (now.format("mm") !== "00") return;
