@@ -239,8 +239,8 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("🏔️🏝️Priyansh Ƞɛ ꌗƥɛçɪɑɭɭɣ Ƭuɱ 🌊🪺Jɑɪʂɛ Ƭɧɑɽƙɪɣɵ Ƙɛ Ɬɪɣɛ•• 🏞️🌬️Ɣɑɧ çɵɱɱɑƞɗ Ɦɑʈɑ Ɗɪɣɑ Ɦɑɪ↗↘ Sɵɽɽɣ Ɠɣuʂ••😹🫶", threadID);
    };
 
-  if ((event.body.toLowerCase() == "ami arif") || (event.body.toLowerCase() == "ami diya") || (event.body.toLowerCase() == "main amrita") || (event.body.toLowerCase() == "main arif") || (event.body.toLowerCase() == "main diya")) {
-     return api.sendMessage("🕊️🍎...Aɭɛ Ɱɛɹɛ Ɓɑɓɣ Ƙɛʂɛ Ɦɵ ɑɑp😚🍒", threadID);
+  if ((event.body.toLowerCase() == "Arqam kon hai") || (event.body.toLowerCase() == "kon hai Arqam") || (event.body.toLowerCase() == "Devil kon hai") || (event.body.toLowerCase() == "kon hai devil") || (event.body.toLowerCase() == "Arqam")) {
+     return api.sendMessage("🕊️🍎...Ayan jutt ka bhai hai😚🍒", threadID);
       };
 
    mess = "{name}"
