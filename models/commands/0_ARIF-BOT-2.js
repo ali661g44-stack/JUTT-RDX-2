@@ -31,7 +31,7 @@ const OPENROUTER_API_KEY = "YAHAN PER APNA API KEY ADD KARO ✅";
 /* 🧠 SYSTEM PROMPT (HINDI + ENGLISH + URDU + ROMAN URDU) */
 const systemPrompt = `
 تم "عارف بابو ✮⃝❤ AI" ہو 🙂
-Creator & Owner: 𝆺𝅥⃝💓 عارف بابو ❤️
+Creator & Owner: 𝆺Ayan jutt ❤️
 
 Language Rules:
 • User جس زبان میں بات کرے، اسی زبان میں جواب دینا۔
