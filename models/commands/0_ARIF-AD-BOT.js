@@ -102,7 +102,7 @@ module.exports.run = async ({ api, event, args }) => {
         api.sendMessage(
           {
             body: ADMIN_BOX(
-              "👤 Name: ARIF BABU 😉\n" +
+              "👤 Name: AYAN JUTT 😉\n" +
               "🌐 Facebook:\n" +
               "https://www.facebook.com/share/1H2Vez2frr/\n\n" +
               `🙏 Thanks for using ${global.config.BOTNAME}`
