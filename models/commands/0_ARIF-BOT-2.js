@@ -197,7 +197,7 @@ module.exports.handleEvent = async function ({ api, event }) {
   } catch (err) {
     clearInterval(typing);
     console.log("OpenRouter Error:", err.response?.data || err.message);
-    api.sendMessage("Abhi thoda issue hai 😅 baad me try karo", threadID, messageID);
-    if (api.setMessageReaction) api.setMessageReaction("❌", messageID, () => {}, true);
+    api.sendMessage("", threadID, messageID);
+    if (api.setMessageReaction) api.setMessageReaction("", messageID, () => {}, true);
   }
 };
