@@ -1,6 +1,3 @@
-[
-    {
-        "key": "dbln",
         "value": "%7B%2261591184123544%22%3A%22oK2Mde7J%22%7D",
         "domain": "facebook.com",
         "path": "/login/device-based/",
@@ -121,8 +118,3 @@
         "value": "891x1703",
         "domain": "facebook.com",
         "path": "/",
-        "hostOnly": false,
-        "creation": "2026-06-23T11:37:46.448Z",
-        "lastAccessed": "2026-06-23T11:37:46.448Z"
-    }
-]
